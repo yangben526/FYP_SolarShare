@@ -1,0 +1,519 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	max-width:100%;
+}
+
+body::-webkit-scrollbar{
+	width: 0.8rem;
+}
+
+body::-webkit-scrollbar-track{
+	background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: #6649b8;
+}
+/*------------------*/
+
+header{
+  position: fixed;
+  background: #22242A;
+  padding: 10px;
+  width: 100%;
+  height: 72px;
+  z-index: 1;
+
+}
+
+
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  position: relative;
+  top: -5px;
+}
+
+.left_area span{
+  color: #35F7CA;
+}
+
+.logoutbtn{
+    padding: 0 20px;
+    background: transparent;
+  	border: 0;
+	border-radius: 50px;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+	height:30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+	display: inline-block;     
+	position: relative;    
+}
+
+.logoutbtn:hover{
+	background: #35F7CA;
+}
+
+.sidebar {
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+  z-index: 2;
+}
+
+.sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.sidebar h4{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #35F7CA;
+  text-decoration: none;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #sidebar_btn:hover{
+  color: #19B3D3;
+}
+
+#check:checked ~ .sidebar{
+  left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+.content{
+  margin-left: 250px;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: 0.5s;
+  position:relative;
+  top: 100px;
+  padding: 5px;
+}
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check{
+  display: none;
+}
+
+
+/*---------------------*/
+
+
+a.btn-vagabondget{
+	margin:30px 10px;
+	width:150px;
+	padding:10px;
+	border-radius:15px;
+	background-color: #32CD32;
+	color: #fff;
+	font-size: 15px;
+	font-family: "Didot";
+}
+
+a.btn-symbolget{
+	margin:30px 10px;
+	width:150px;
+	padding:10px;
+	border-radius:15px;
+	background-color: #228B22;
+	color: #fff;
+	font-size: 15px;
+	font-family: "Didot";
+}
+
+.welcometext{
+	margin: 10px 10px;
+	font-family: "Georgia";
+}
+
+.usertext{
+	margin: 10px 10px;
+	color: #05179F;
+
+}
+
+.userpage{
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.billtext{
+	font-size:18px;
+}
+
+.userpage2{
+	float: right;
+}
+
+.jumbotronhigh {
+    background-color:transparent !important; 
+	margin-top: -50px;
+}
+
+.jumbotronmid {
+    background-color:transparent !important; 
+	margin-top: -40px;
+	padding: 30px 5px;
+}
+
+.jumbotronlow {
+    background-color:transparent !important; 
+	margin-top: -50px;
+}
+
+.card-panel{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  height: 200px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.card-image{
+	margin: auto;
+	border: auto;
+	padding: auto;
+	vertical-align: middle;
+}
+
+.cirStats h4{
+	text-transform:uppercase;
+	padding-top:20px;
+}
+
+#energymeterprofiletext{
+	font-size:16px;
+	font-weight:bold;
+	position: absolute;
+	top: 10px;
+}
+
+#redeemedenergytext{
+
+}
+
+.cardlinegraph{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0px -28px;
+  vertical-align: middle;
+  padding: 28px;
+}
+
+.cardlinegraph1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0px -28px;
+  vertical-align: middle;
+  padding: 50px 10px;
+}
+
+.cardlinegraph2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  vertical-align: middle;
+  padding: 28px;
+  
+}
+
+.cardlinegraph3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0px 5px;
+  vertical-align: middle;
+  padding: 28px;
+}
+
+.easypiechart {
+	position: relative;
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	margin: 20px auto 10px auto;
+}
+
+.easypiechart .percent {
+	display: block;
+	position: absolute;
+	font-size: 26px;
+	top: 38px;
+	width: 120px;
+}
+
+#easypiechart-yellow .percent { color: #ffff00;}
+#easypiechart-blue .percent { color: #30a5ff;}
+#easypiechart-teal .percent { color: #1ebfae;}
+#easypiechart-orange .percent { color: #ffb53e;}
+#easypiechart-red .percent { color: #ef4040;}
+
+#wallet_profile{
+
+}
+
+#solar_profile{
+	
+}
+
+a.btn-solarlist{
+	background-color: darkred;
+	color: #fff;
+	font-size: 15px;
+	float: right;
+	margin-right: 5px;
+}
+
+a.btn-checktransachistory{
+	background-color: #35F7CA;
+	color: black;
+	font-size: 15px;
+	float: right;
+
+}
+
+#meteraddresspart{
+	font-size:16px;
+	text-align:left;
+}
+
+#meteraddresslocation{
+	font-size:16px;
+	text-align:left;
+}
+
+#address_icon{
+	border: 5px green;
+	font-size: 21px;
+	box-shadow: 0px 0px 2px #888;
+	padding: 3px;
+}
+
+#TopUpbtn{
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #35F7CA;
+	float: right;
+}
+
+#TopUpbtn:hover{
+	color: white;
+}
+
+#vagatopupmeter{
+	float:left;
+	padding: 5px;
+}
+
+#metertextvaga{
+	color: #0080FF;
+	font-size: 15px;
+}
+
+#meter_vagabond{
+	font-family: "Lucida Console", Courier, monospace;
+	color: #66FF00;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 3px 10px;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#meter_address0{
+	word-wrap: break-word;	
+	font-size: 12px;
+	outline: 1px dashed green;
+	padding: 5px;
+}
+
+#location_address{
+	word-wrap: break-word;	
+	font-size: 12px;
+	outline: 1px dashed green;
+	padding: 5px;
+}
+
+#meter_address{
+	word-wrap: break-word;		
+}
+
+#meter_pubkey{
+	word-wrap: break-word;		
+}
+
+#acc_address{
+	word-wrap: break-word;
+}
+
+#acc_pubkey{
+	word-wrap: break-word;
+}
+
+#account_address{
+	word-wrap: break-word;	
+	font-size:10px;
+	text-align: right;
+}
+
+#account_pubkey {
+	word-wrap: break-word;
+}
+
+#solar_address{
+	word-wrap: break-word;
+}
+
+#solar_pubkey {
+	word-wrap: break-word;
+}
+
+#useradmin{
+	text-decoration:underline;
+	font-family: "Didot";
+	
+}
+
+.nembalance{
+text-align: justify;
+text-align-last: center;
+}
+
+@media screen and (max-width: 1080px) {
+
+
+#energymeterprofiletext{
+
+}
+
+#redeemedenergytext{
+
+}
+
+}
+
+
+@media screen and (max-width: 650px){
+	
+label #sidebar_btn{
+	position: relative;
+	left:0px;
+	top: 20px;
+}
+
+.left_area h3{
+	position: relative;
+	left:132px;
+	top:-6px;
+}
+
+
+.logoutbtn{
+	position: relative;
+	left:42px;
+}
+
+	
+a.btn-transaction{
+	position:absolute;
+
+}
+
+.userpage2{
+	width: 97%;
+}
+
+#iframebal{
+	position:relative;
+	right: 180px;
+	top: -60px;
+}
+
+#iframediv{
+	height: 120px;
+}
+
+.userpage{
+	position:relative;
+	left: 30px;
+}
+ 
+
+}

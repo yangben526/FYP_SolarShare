@@ -1,0 +1,24 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wholesetfunction.js",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "express": "^4.17.1",
+    "nem-sdk": "^1.6.7",
+    "nem2-sdk": "^0.17.0",
+    "open": "^7.1.0",
+    "path": "^0.12.7",
+    "rxjs": "file:rxjs",
+    "symbol-sdk": "^0.20.7"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

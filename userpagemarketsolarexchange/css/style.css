@@ -1,0 +1,336 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+	max-width:100%;
+}
+
+body::-webkit-scrollbar{
+	width: 0.8rem;
+}
+
+body::-webkit-scrollbar-track{
+	background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: #6649b8;
+}
+
+/*------------------*/
+
+header{
+  position: fixed;
+  background: #22242A;
+  padding: 10px;
+  width: 100%;
+  height: 72px;
+  z-index: 1;
+
+}
+
+
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  position: relative;
+  top: -5px;
+}
+
+.left_area span{
+  color: #35F7CA;
+}
+
+.logoutbtn{
+    padding: 0 20px;
+    background: transparent;
+  	border: 0;
+	border-radius: 50px;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+	height:30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+	display: inline-block;     
+	position: relative;    
+}
+
+.logoutbtn:hover{
+	background: #35F7CA;
+	cursor: pointer;
+}
+
+.sidebar {
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+  z-index: 2;
+}
+
+.sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.sidebar h4{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #35F7CA;
+  text-decoration: none;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #sidebar_btn:hover{
+  color: #19B3D3;
+}
+
+#check:checked ~ .sidebar{
+  left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+.content{
+  margin-left: 250px;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: 0.5s;
+  position:relative;
+  top: 100px;
+  margin-left: 70px !important;
+}
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check{
+  display: none;
+}
+
+
+/*---------------------*/
+#buyandselldash{
+
+}
+
+#buy{
+	color: 	#32CD32;
+}
+
+#btn-buy{
+	background-color: #32CD32;
+	position: relative;
+	bottom: ;
+}
+
+#buyorder{
+	color: #008e94;
+}
+
+#sell{
+	color: #008e94;
+}
+
+#btn-sell{
+	background-color: #008e94;
+	position: relative;
+	bottom: ;
+}
+
+#sellorder{
+	color: #008e94;	
+}
+
+#orderheader{
+	font-size: 0.85em;
+	color: #778899;
+	border-bottom: 5px solid black;
+	border-bottom-width: thin;
+}
+
+input{
+	height:25px;
+}
+
+
+.form-group{
+   margin-bottom: 0px!important;	
+}
+
+.form-group label{
+	font-size:14px;
+}
+
+input[type="text"]{
+	text-align: right;
+	font-size:	0.75em;
+}
+
+#account_bal_symbol{
+	color: #0883F2;
+}
+
+#account_bal_vagabond{
+	color: #0883F2;
+}
+
+#symbol_text{
+	font-size: 0.65em;
+	color: #A9A9A9;
+}
+
+#vagabond_text{
+	font-size: 0.65em;
+	color: #A9A9A9;
+}
+
+#bal_box{
+	float: right;
+	
+}
+
+#curr_bal_symbol{
+	position: absolute;
+	right: 25px;
+	font-size: 0.75em;
+	color: #A9A9A9;
+}
+
+#curr_bal_vagabond{
+	position: absolute;
+	right: 25px;
+	font-size: 0.75em;
+	color: #A9A9A9;
+}
+
+/*---------------------*/
+
+
+.wrapper{
+    display: table;
+    height: 100%;
+    width: 100%;	
+}
+
+#energytradingorder{
+	color: #008e94;	
+}
+
+#trader_buy{
+    display: table-row;
+	height: 100%;
+}
+
+#trader_sell{
+    display: table-row;
+	height: 100%;
+
+}
+
+#traderheader{
+	border-bottom: 5px solid black;
+	border-bottom-width: thin;
+}
+
+/*---------------------*/
+
+
+.dashboard-cards .card-content{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@media screen and (max-width: 992px) {
+
+ 
+}
+
+
+@media screen and (max-width: 600px){
+	
+label #sidebar_btn{
+	position: relative;
+	left:0px;
+	top: 20px;
+}
+
+#traderbuysellallorders td{
+	font-size: 16px;
+}
+
+.left_area h3{
+	position: relative;
+	left:132px;
+	top:-6px;
+}
+
+
+.logoutbtn{
+	position: relative;
+	left:42px;
+}
+
+
+}
