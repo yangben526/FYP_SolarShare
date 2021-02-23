@@ -39,12 +39,13 @@ List of tables:
 - Status carchar(100)
 
 
---- Grant access to database with SQL ----
+---Grant access to database with SQL---
 GRANT ALL ON household_solar2.* TO 'testuser'@'localhost' IDENTIFIED BY 'password';
 
 ---Symbol-sdk installation----
 
-"npm install symbol-sdk rxjs" at 1. P2PTrading/UniversalAssets/js
+"npm install symbol-sdk rxjs" at 
+1. P2PTrading/UniversalAssets/js
 2. P2PTrading/userpageserver/js
 
 --- Coversion of Symobol-sdk for browser environment ---
