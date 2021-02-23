@@ -1,7 +1,7 @@
-# FYP_SolarShare_finalver
+# FYP SolarShare (final_version)
 Energy Monitoring and Management System based on Blockchain technology v.2 (online platform with PHP)
 
-#Energy Monitoring and Management System Based On Blockchain Technology v2.0     
+# Energy Monitoring and Management System Based On Blockchain Technology v2.0     
 
 Used with localhost via XAMMP
 Run to start -> http://localhost:8080/P2PTrading/homepage2.php
