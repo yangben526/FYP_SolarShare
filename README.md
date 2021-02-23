@@ -1,4 +1,4 @@
-# FYP SolarShare (final_version)
+# FYP SolarShare (final version)
 Energy Monitoring and Management System based on Blockchain technology v.2 (online platform with PHP)
 
 # Energy Monitoring and Management System Based On Blockchain Technology v2.0     
