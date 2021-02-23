@@ -1,0 +1,280 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	max-width:100%;
+}
+
+body::-webkit-scrollbar{
+	width: 0.8rem;
+}
+
+body::-webkit-scrollbar-track{
+	background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: #6649b8;
+}
+/*------------------*/
+
+header{
+  position: fixed;
+  background: #22242A;
+  padding: 10px;
+  width: 100%;
+  height: 72px;
+  z-index: 1;
+}
+
+
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  position: relative;
+  top: -5px;
+}
+
+.left_area span{
+  color: #35F7CA;
+}
+
+.logoutbtn{
+    padding: 0 20px;
+    background: transparent;
+  	border: 0;
+	border-radius: 50px;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+	height:30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+	display: inline-block;     
+	position: relative;    
+}
+
+.logoutbtn:hover{
+	background: #35F7CA;
+}
+
+.sidebar {
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+  z-index: 2;
+}
+
+.sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.sidebar h4{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #35F7CA;
+  text-decoration: none;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #sidebar_btn:hover{
+  color: #19B3D3;
+}
+
+#check:checked ~ .sidebar{
+  left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+.content{
+  margin-left: 250px;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: 0.5s;
+  position:relative;
+  top: 100px;
+  padding: 5px;
+}
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check{
+  display: none;
+}
+
+
+/*---------------------*/
+
+.head{
+	background-color: rgba(255, 255, 255, .4);
+	color: rgba(255, 255, 255, .4);
+}
+
+#head_id{
+	background-color: rgba(255, 255, 255, .4);	
+}
+
+
+.jumbotronhigh {
+    background-color:transparent !important; 
+	margin-top: -50px;
+}
+
+.jumbotronmid {
+    background-color:transparent !important; 
+	margin-top: -40px;
+	padding: 30px 5px;
+}
+
+.jumbotronlow {
+    background-color:transparent !important; 
+	margin-top: -50px;
+}
+
+.card-panel{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  height: 200px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.card-image{
+	margin: auto;
+	border: auto;
+	padding: auto;
+	vertical-align: middle;
+}
+
+.cirStats h4{
+	text-transform:uppercase;
+	padding-top:20px;
+}
+
+.cardlinegraph{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  vertical-align: middle;
+  padding: 28px;
+}
+
+
+.easypiechart {
+	position: relative;
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	margin: 20px auto 10px auto;
+}
+
+.easypiechart .percent {
+	display: block;
+	position: absolute;
+	font-size: 26px;
+	top: 38px;
+	width: 120px;
+}
+
+#easypiechart-yellow .percent { color: #ffff00;}
+#easypiechart-blue .percent { color: #30a5ff;}
+#easypiechart-teal .percent { color: #1ebfae;}
+#easypiechart-orange .percent { color: #ffb53e;}
+#easypiechart-red .percent { color: #ef4040;}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+ 
+}
+
+
+@media screen and (max-width: 650px){
+	
+label #sidebar_btn{
+	position: relative;
+	left:0px;
+	top: 20px;
+}
+
+.left_area h3{
+	position: relative;
+	left:132px;
+	top:-6px;
+}
+
+
+.logoutbtn{
+	position: relative;
+	left:42px;
+}
+
+ 
+
+}
