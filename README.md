@@ -40,6 +40,7 @@ List of tables:
 
 
 ---Grant access to database with SQL---
+
 GRANT ALL ON household_solar2.* TO 'testuser'@'localhost' IDENTIFIED BY 'password';
 
 ---Symbol-sdk installation----
@@ -61,12 +62,14 @@ Browserify -r .UniversalAssets/js/node_modules/rxjs/operators -o rxjs_operators.
 
 ===== OPTIONAL ======
 
-----Blockchain monitoring-------------
+----Blockchain monitoring------
+
 install symbol-cli on cmd.exe
 "npm install --global symbol-cli"
 
 "symbol-cli account monitor all" to monitor 
 blockchain network
 
---- Symbol wallet --------------
+--- Symbol wallet ------------
+
 Install symbol official testnet wallet program
