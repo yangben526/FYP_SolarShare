@@ -74,8 +74,8 @@ Install symbol official testnet wallet program
 
 # Sample (screenshot)
 ![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/blob/main/Platform_img/Front.PNG)
-![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/Front_2.PNG?raw=true)
-![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/main dash.PNG?raw=true)
-![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/main dash2.PNG?raw=true)
-![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/ENergydata.PNG?raw=true)
-![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/exchnage.PNG?raw=true)
+![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/Front_2.PNG)
+![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/main dash.PNG)
+![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/main dash2.PNG)
+![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/ENergydata.PNG)
+![alt text](https://github.com/yangben526/FYP_SolarShare_finalver/Platform_img/exchnage.PNG)
