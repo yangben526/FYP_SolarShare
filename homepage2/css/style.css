@@ -1,0 +1,293 @@
+body{
+	/*
+	background-image: url("../img/homepicback2.jpg");
+	*/
+	/*background-image: url("../img/GenerousGlisteningInexpectatumpleco-size_restricted.gif");
+	*/
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	height:100vh;
+	overflow: hidden;
+	font-family: 'Cardo', serif;
+	
+}
+
+.navbar-header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	background-color: transparent;
+	color: black;
+	padding: 1em;
+}
+
+.navbar-header > ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex: 3;
+
+}
+
+.navbar-header li{
+	margin-right: 1em;
+}
+
+
+.navbar-header li a{
+	text-decoration: none;
+	
+}
+
+/*
+li a:hover:not(.navbar-header ){
+	font-size: 17px;
+}
+*/
+
+#homebtn{
+	text-shadow:
+	-1px -1px 0 #808080,  
+	1px -1px 0 #808080,
+    -1px 1px 0 #808080,
+    1px 1px 0 #808080;
+}
+
+#homebtn:hover{
+	background-color: #35F7CA;
+}
+
+#helpbtn{
+	text-shadow:
+	-1px -1px 0 #808080,  
+	1px -1px 0 #808080,
+    -1px 1px 0 #808080,
+    1px 1px 0 #808080;
+}
+
+#helpbtn:hover{
+	background-color: #35F7CA;
+}
+
+.logo{
+	max-height:8%;
+	height:auto;
+	width:auto;
+	max-width:8%;
+	padding-right:30px;
+	margin: auto;
+	/*
+	position:relative;
+	left:2px;
+	bottom:10px;
+	*/
+}
+
+
+ul li:nth-child(1),ul li:nth-child(2), ul li:nth-child(3){
+	padding:15px 8px;
+	border:15px 10px;
+	font-family: poppins;
+}
+
+/*
+.navbar-header button{
+	background:transparent;
+	border: 0;
+	border-radius: 50px;
+	height: 50px;
+	padding:0 45px;
+	margin-left: .3em;
+	border:1px solid #707070;
+	color: #black;
+}
+*/
+
+.walletcreation{
+	background-color: transparent;
+	background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;   
+	outline: none;
+	padding:0 30px;
+	
+	font-size: 15px;
+	color:white;
+	text-shadow:
+	-1px -1px 0 #808080,  
+	1px -1px 0 #808080,
+    -1px 1px 0 #808080,
+    1px 1px 0 #808080;
+}
+
+.walletcreation:hover{
+	color: #35F7CA;
+	text-decoration: underline;
+}
+
+.loginbutton:hover{
+	background: #35F7CA;
+	cursor: pointer;
+	color: black;
+	border-color: black;
+	text-shadow:
+	-1px -1px 0 #FFFFFF,  
+	1px -1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
+}
+
+.loginbutton{
+	background:transparent;
+	border: 0;
+	border-radius: 50px;
+	height: 50px;
+	padding:0 45px;
+	margin-left: .3em;
+	border:1px solid #707070;
+	color: white;
+	border-color: white;
+	text-shadow:
+	-1px -1px 0 #808080,  
+	1px -1px 0 #808080,
+    -1px 1px 0 #808080,
+    1px 1px 0 #808080;
+
+}
+
+.banner-text{
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: big john;
+	text-align: center;
+	text-shadow:
+	-1px -1px 0 #808080,  
+	1px -1px 0 #808080,
+    -1px 1px 0 #808080,
+    1px 1px 0 #808080;
+}
+
+.banner-text h2{
+	font-size: 110px;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Oswald', sans-serif,bold;
+}
+
+.banner-text p{
+	font-size: 25px;
+	margin: 0px;
+}
+
+#logotexthalfstart{
+	color: #35F7CA;
+}
+
+#logotexthalfend{
+	color: #35F7CA;
+}
+
+#p2{
+	position: relative;
+	font-size: 18px;
+	left:150px;
+}
+
+#nemtechlogo{
+	max-height:10%;
+	max-width:10%;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
+#homepagevid{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index:-5;
+}
+	
+/*responsive css*/
+
+@media screen and (max-width: 992px) {
+	img.logo{
+		max-width:17%;
+		max-height:100%;
+		position:relative;
+		bottom:10px;
+	}
+	
+	#nemtechlogo{
+		max-width:20%;
+		max-height:100%;
+	}
+ 
+}
+
+@media screen and (max-width: 600px){
+
+	.navbar-header ul{
+		flex-direction: row;
+		position: absolute;
+		bottom: 25px;
+		left: 50px;
+	}
+	.navbar-header li{
+		margin-right:100px;
+	}
+	
+	.walletcreation{
+		position:absolute;
+		bottom:40px;
+		right: 16px;
+	}
+
+	.banner-text h2{
+		font-size: 70px;
+	}
+	
+	.banner-text p{
+		font-size: 15px;
+		margin: 0px;
+	}
+	
+	#p2{
+		position: relative;
+		font-size: 15px;
+		left:10px;
+	}
+
+	img.logo{
+		/*display:none;*/
+		max-width:30%;
+		max-height:100%;
+		position:relative;
+		bottom:5px;
+		right:80px;
+	}
+	
+	#nemtechlogo{
+		max-width:25%;
+		max-height:100%;
+	}
+	
+}
+	
+
