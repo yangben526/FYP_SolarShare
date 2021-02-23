@@ -1,0 +1,46 @@
+#giveticket{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#giveticketsubmitdb{
+	border: none;
+	margin: 0px 20px;
+	color: black;
+	padding: 7px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 9.5px;
+	border-radius: 25px;
+	position: absolute;
+    right:  0;
+	bottom: 0;
+	cursor: pointer;
+}
+
+#giveticketsubmitdb:hover{
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3); 
+	opacity: 0.5;
+}
+
+.right-logo h3{
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  position: absolute;
+  top: 18px;
+  right: 25px;
+}
+
+.right-logo span{
+  color: #35F7CA;
+}
