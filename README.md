@@ -49,7 +49,7 @@ GRANT ALL ON household_solar2.* TO 'testuser'@'localhost' IDENTIFIED BY 'passwor
 1. P2PTrading/UniversalAssets/js
 2. P2PTrading/userpageserver/js
 
-# Coversion of Symobol-sdk for browser environment
+# Coversion of Symbol-sdk for browser environment
 
 "cd" command --> to "./UniversalAssets"
 
