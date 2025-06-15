@@ -82,7 +82,7 @@ Install symbol official testnet wallet program
 
 # Energy Monitoring and Monitoring, and P2P Energy Trading System
 Trading tokenised energy(vagabond.energy) with intrinsic tokens/cryptocurrencies(SYMBOL.xym by NEM)
-![alt text](https://github.com/yangben526/FYP_SolarShare/blob/main/Platform_img/.png)
+![alt text](https://github.com/yangben526/FYP_SolarShare/blob/main/Platform_img/SolarShareP2PDiagram.png)
 
 The P2P Energy Trading with Smart Contract
 ![alt text](https://github.com/yangben526/FYP_SolarShare/blob/main/Platform_img/smart_contract.png)
